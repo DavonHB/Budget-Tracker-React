@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import Container from 'react-bootstrap/Container'
-import Stack from 'react-bootstrap/Stack'
-import Button from 'react-bootstrap/Button'
+import { Stack, Button, Container } from 'react-bootstrap'
 import BudgetCard from './components/BudgetCard'
 import AddBudgetModal from './components/AddBudgetModal'
 import { UNCATEGORIZED_BUDGET_ID, useBudgets } from './contexts/BudgetsContext'

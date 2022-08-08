@@ -1,9 +1,6 @@
 import React from 'react'
-import { ProgressBar } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
+import { ProgressBar, Stack, Card, Button } from 'react-bootstrap'
 import { currencyFormatter} from '../utils'
-import Stack from 'react-bootstrap/stack'
-import Button from 'react-bootstrap/Button'
 
 export default function BudgetCard({ 
     name, 
